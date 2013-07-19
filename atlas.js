@@ -11,7 +11,7 @@
           for (routeKey in _ref) {
             route = _ref[routeKey];
             if (routeKey) {
-              if (route.routeName === name) {
+              if (route.atlasName === name) {
                 targetPath = routeKey;
                 break;
               }

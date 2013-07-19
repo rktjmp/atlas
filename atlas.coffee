@@ -42,7 +42,7 @@ angular.module('Atlas', []).factory('Atlas', ['$route', '$location', ($route, $l
       targetPath = null
       for routeKey, route of $route.routes
         if routeKey
-          if route.routeName == name
+          if route.atlasName == name
             targetPath = routeKey
             break
       if targetPath == null
