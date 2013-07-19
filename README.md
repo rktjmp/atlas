@@ -20,7 +20,7 @@ as shown below:
 
 In your main app definition, add Atlas as a dependency:
 
-    window.app = angular.module('myApp', [Atlas']).config(...)
+    window.app = angular.module('myApp', ['Atlas']).config(...)
 
 Now in your controllers you can use use Atlas like so:
 
